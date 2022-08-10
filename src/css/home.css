@@ -1,0 +1,222 @@
+.zIndex {
+  position: relative;
+}
+.normalPosition {
+  margin-top: 155%;
+}
+.firstSection {
+  position: absolute;
+  z-index: 3;
+  background-image: url("../images/home/firstSectionBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 5% 5% 20% 5%;
+  /* padding: 0 0 20% 0; */
+}
+
+.firstSectionContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  /* margin-bottom: 4.9%; */
+}
+.firstsectionTextWrapper {
+  width: 60%;
+}
+.firstsectionTextWrapper h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "HN Bold";
+  font-size: 52px;
+  color: #f3f3f3;
+  width: 100%;
+  text-align: center;
+  line-height: 130%;
+}
+
+.secondSection {
+  background-image: url("../images/home/secondSectionBackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  margin-top: 50%;
+}
+.secondSectionPDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16%;
+  margin-bottom: 20%;
+}
+
+.secondSection p {
+  width: 72%;
+  font-family: "HN Light";
+  font-size: 38px;
+  color: #f3f3f3;
+  line-height: 160%;
+  text-align: center;
+}
+
+.secondSection span {
+  font-family: "HM Medium";
+}
+
+.thirdSection {
+  background-color: #1e2124;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  margin-top: 84%;
+}
+.thirdSectionContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 17%;
+  margin-bottom: 7%;
+}
+.upperTitle {
+  font-family: "HM Medium";
+  font-size: 53px;
+  color: #f3f3f3;
+}
+
+.lowerTitle {
+  font-family: "HN Bold";
+  font-size: 53px;
+  color: #f3f3f3;
+}
+
+.power {
+  color: #525fdf;
+}
+
+.niche {
+  color: #abb3d3;
+}
+
+.thirdSectionTextArea {
+  margin-left: 10%;
+}
+.thirdSectionTitle {
+  font-size: 33px;
+}
+.thirdSectionText {
+  width: 50%;
+  font-family: "HN Light";
+  font-size: 24px;
+  line-height: 152%;
+  color: #f3f3f3;
+}
+
+.thirdSectionText span {
+  font-family: "HM Medium";
+}
+
+.thirdSectionText p {
+  width: 120%;
+}
+.fourthSection {
+  white-space: nowrap;
+}
+.fourthSectionBackground img {
+  width: 100%;
+  height: auto;
+}
+
+.fifthSection {
+  background-image: url("../images/home/fifhtSectionBackground.png");
+  background-size: cover;
+  padding: 6% 2% 2% 2%;
+}
+.fifthSectionContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fifhtSectionTitle {
+  font-size: 42px;
+  margin-left: 6%;
+  margin-right: 0%;
+  margin-top: -5%;
+  width: 15%;
+}
+.fifthSectionUpper {
+  font-family: "HN Bold";
+  color: #f3f3f3;
+}
+
+.fifthSectionLower {
+  font-family: "HN Roman";
+  color: #333ca0;
+  margin-top: -12%;
+}
+.fifthSectionLower span {
+  color: #525fdf;
+}
+.cardsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.fifthSectionCards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.fifthSectionCards span {
+  font-family: "HM Medium";
+}
+.fifthSectionButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.sixthSection {
+  background-color: #1e2022;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sixthSectionTitle {
+  font-family: "HN Bold";
+  color: #f3f3f3;
+  font-size: 45px;
+}
+
+.sixthSectionTitle span {
+  color: #525fdf;
+}
+
+.sixthSectionCards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 6%;
+  padding: 0% 0% 1% 0%;
+}
+.sixthSectionCards span {
+  font-family: "HM Medium";
+}

@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "HN Bold";
+    src: url("../static/fonts/HelveticaNeueCyr-Bold.ttf");
+}
+@font-face {
+    font-family: "HN Light";
+    src: url("../static/fonts/HelveticaNeueCyr-Light.ttf");
+}
+@font-face {
+    font-family: "HM Medium";
+    src: url("../static/fonts/HelveticaNeueCyr-Medium.ttf");
+}
+@font-face {
+    font-family: "HN Roman";
+    src: url("../static/fonts/HelveticaNeueCyr-Roman.ttf");
+}
+@font-face {
+    font-family: "R Medium";
+    src: url("../static/fonts/Raleway-Medium.ttf");
+}
+@font-face {
+    font-family: "S Ui";
+    src: url("../static/fonts/segoe-ui.ttf");
+}
+

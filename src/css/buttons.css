@@ -1,0 +1,65 @@
+/* .buttonDiv {
+    background-color: #525FDF;
+    border-radius: 15%;
+    width: 70%;
+}
+.buttonDiv a {
+    font-family: "HM Medium";
+    color: #FFFFFF;
+} */
+
+/* .phoneButtonDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.buttonContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #525FDF;
+    border-radius: 9%;
+    width: 80%;
+    margin-left: 4%;
+    margin-right: 4%;
+} */
+
+.getInTouchbutton {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #525fdf;
+  border-radius: 12px;
+  width: 30%;
+  height: 100%;
+}
+.buttonTextArea {
+  font-family: "HM Medium";
+  font-size: 1.25rem;
+  color: #f3f3f3;
+  padding: 0.5em 1.5rem;
+  border-radius: 2rem;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #525fdf;
+  border-radius: 12px;
+}
+
+.buttonText {
+  font-family: "HN Roman";
+  font-size: 20px;
+  color: #f3f3f3;
+}
+
+a:link {
+  text-decoration: none;
+}

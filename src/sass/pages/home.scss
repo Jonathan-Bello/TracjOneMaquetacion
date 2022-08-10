@@ -1,0 +1,170 @@
+.Home__firstSection {
+  position: relative;
+  z-index: 10;
+  background-image: url("../images/home/firstSectionBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 20% 1.8rem 20%;
+
+  @include from(lg) {
+    padding: 10% 1.8rem 20%;
+  }
+}
+
+.Home__firstSection__logo {
+  margin-bottom: 4rem;
+}
+
+.Home__firstSection__logo img {
+  width: 20rem;
+
+  @include from(m) {
+    width: 24rem;
+  }
+
+  @include from(lg) {
+    width: 28rem;
+  }
+}
+
+.Home__firstSection__text {
+  font-family: "HN Bold";
+  font-size: 1rem;
+  color: #f3f3f3;
+  text-align: center;
+  line-height: 200%;
+
+  @include from(lg) {
+    font-size: 1.5rem;
+    padding: 0 5rem;
+  }
+}
+
+.Home__secondSection {
+  position: relative;
+  background-image: linear-gradient(
+    to bottom,
+    hsl(233, 41%, 10%) 0%,
+    hsl(233, 41%, 60%) 100%
+  );
+
+  margin-top: -10rem;
+  padding: 13rem 1.8rem 10rem;
+
+  @include from(lg) {
+    margin-top: -10rem;
+    padding: 13rem 10rem 10rem;
+  }
+}
+
+.Home__secondSection p {
+  font-family: "HN Light";
+  font-size: 1.5rem;
+  color: #f3f3f3;
+  line-height: 160%;
+  text-align: center;
+
+  @include from(lg) {
+    font-size: 1.8rem;
+  }
+}
+
+.Home__secondSection span {
+  font-family: "HM Medium";
+}
+
+.Home__thirdSection {
+  position: relative;
+  z-index: 1;
+  background: transparent linear-gradient(180deg, #1e2124 0%, #282b30 100%) 0%
+    0% no-repeat padding-box;
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+
+  margin-top: -8rem;
+  padding: 8rem 1.8rem 4rem;
+
+  color: #f3f3f3;
+
+  .upperTitle {
+    font-size: 1.2rem;
+    font-family: "HM Medium";
+    font-weight: 400;
+
+    @include from(lg) {
+      font-size: 1.4rem;
+    }
+  }
+
+  .lowerTitle {
+    font-family: "HN Bold";
+    font-size: 1.5rem;
+
+    @include from(lg) {
+      font-size: 1.8rem;
+    }
+  }
+
+  .power {
+    color: #525fdf;
+  }
+
+  .niche {
+    color: #abb3d3;
+  }
+}
+
+.Home__thirdSection__text {
+  font-size: 1.1rem;
+  span {
+    font-family: "HM Medium";
+  }
+
+  @include from(lg) {
+    font-size: 1.3rem;
+  }
+}
+
+.Home__thirdSection__img {
+  position: absolute;
+  z-index: 5;
+  top: 140%;
+  right: 0rem;
+}
+
+.Home__thirdSection__img img {
+  width: 30rem;
+}
+
+.Home__fourthSection {
+  // colocar degradador vertical de fondo blanco arriba y azul abajo
+  background-image: linear-gradient(
+    to bottom,
+    hsla(232, 44%, 63%, 0.986) 0%,
+    hsl(233, 41%, 60%) 100%
+  );
+
+  margin-top: -1.5rem;
+  margin-bottom: 0;
+}
+
+.Home__fifthSection {
+  padding: 4rem 1.8rem;
+  background-image: linear-gradient(to bottom, #1f2324 0%, #35383d 100%);
+}
+
+.Home__fifthSection_titleContainer {
+  .why {
+    font-size: 1.5rem;
+    font-family: "HN Bold";
+    color: #f3f3f3;
+    line-height: 20%;
+  }
+
+  .trackone {
+    font-size: 1.8rem;
+    font-family: "HN Roman";
+    color: #333ca0;
+  }
+}

@@ -15,10 +15,15 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "antd": "^4.22.4",
     "gatsby": "^4.20.0",
+    "gatsby-plugin-antd": "^2.2.0",
     "gatsby-plugin-sass": "^5.20.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "sass": "^1.54.4"
+  },
+  "devDependencies": {
+    "ed-grid": "^3.0.2"
   }
 }
