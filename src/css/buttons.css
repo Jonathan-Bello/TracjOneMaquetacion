@@ -52,6 +52,7 @@
   justify-content: space-evenly;
   background-color: #525fdf;
   border-radius: 12px;
+  gap: 0em;
 }
 
 .buttonText {

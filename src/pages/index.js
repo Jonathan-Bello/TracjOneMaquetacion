@@ -7,11 +7,16 @@ import Server from "../images/home/server.png";
 import fourSectionImg from "../images/home/fourthSection.png";
 
 import WhyCard from "../components/cards/whyCard/index.jsx";
+import HelpCard from "../components/cards/helpCard/index.jsx";
 import GetInTouch from "../components/buttons/getInTouch/index";
 
 import Icon1 from "../images/home/firstIcon.png";
 import Icon2 from "../images/home/secondIcon.png";
 import Icon3 from "../images/home/thirdIcon.png";
+import Icon4 from "../images/home/fourthIcon.png";
+import Icon5 from "../images/home/fifthIcon.png";
+import Icon6 from "../images/home/sixthIcon.png";
+import { Link } from "gatsby";
 
 const monika = () => {
   return (
@@ -84,7 +89,7 @@ const monika = () => {
         </section>
 
         <section className="Home__fifthSection">
-          <div className="Home__fifthSection_titleContainer s-mb-4">
+          <div className="Home__fifthSection_titleContainer ed-grid s-mb-4">
             <div className="why">
               <h2>WHY</h2>
             </div>
@@ -131,9 +136,58 @@ const monika = () => {
                 }
               />
             </div>
-            <div className="s-main-center s-cross-center">
-              <GetInTouch text="Get in touch" />
-            </div>
+          </div>
+          <div className="s-main-center s-cross-center">
+            {/* <GetInTouch text="Get in touch" /> */}
+            <a className="button" href="#">
+              Get in touch
+            </a>
+          </div>
+        </section>
+
+        <section className="Home__sixthSection">
+          <div className="ed-grid s-mb-4">
+            <h2 className="Home__sixthSection__title">
+              How we can <span>help</span>
+            </h2>
+          </div>
+          <div className="ed-grid s-grid-1 lg-grid-3">
+            <HelpCard
+              image={Icon4}
+              title="Services"
+              text={
+                <>
+                  "Implement improved <b>security practices</b> and
+                  battle-tested processes from the best and brightest security
+                  thought leaders."
+                </>
+              }
+            />
+            <HelpCard
+              image={Icon5}
+              title="Products"
+              text={
+                <>
+                  "Discover the <b>latest and greatest security solutions</b> to
+                  implement across your enterprise – designed and deployed by
+                  the best in the biz."
+                </>
+              }
+            />
+            <HelpCard
+              image={Icon6}
+              title="Expertise"
+              text={
+                <>
+                  "
+                  <b>
+                    Gain insight, learn tricks of the trade, and stay up-to-date
+                  </b>{" "}
+                  on the latest happenings in the world of cybersecurity from
+                  experts with firsthand experience."
+                </>
+              }
+            />
           </div>
         </section>
       </div>

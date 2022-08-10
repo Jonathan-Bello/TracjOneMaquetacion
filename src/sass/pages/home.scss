@@ -54,7 +54,7 @@
   padding: 13rem 1.8rem 10rem;
 
   @include from(lg) {
-    margin-top: -10rem;
+    margin-top: -11rem;
     padding: 13rem 10rem 10rem;
   }
 }
@@ -167,4 +167,23 @@
     font-family: "HN Roman";
     color: #333ca0;
   }
+}
+
+.Home__sixthSection {
+  background-color: #1e2022;
+  margin-top: -1.5rem;
+  margin-bottom: 0;
+  padding: 4rem 1.8rem;
+}
+
+.Home__sixthSection__title {
+  font-size: 2.2rem;
+  font-family: "HN Bold";
+  color: #f3f3f3;
+  line-height: 20%;
+  text-align: center;
+}
+
+.Home__sixthSection__title span {
+  color: #525fdf;
 }

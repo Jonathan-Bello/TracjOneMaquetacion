@@ -5,21 +5,23 @@ import "../../css/footer.css";
 
 const Footer = () => {
   return (
-    <div className="footerDiv">
-      <div className="upperDiv">
-        <div className="upperContent">
-          <h3>Looking to connect?</h3>
+    <footer className="footer">
+      <div className="footer__content">
+        <div className="">
+          <h3 className="s-center">Looking to connect?</h3>
           <p>
             I respond faster via text. You probably do too. Let’s not waste any
             more time.
           </p>
-          <Button text="404 630-2188" image={Phone} />
+          <div className="footer__buttonContainer">
+            <Button text="404 630-2188" image={Phone} />
+          </div>
         </div>
       </div>
-      <div className="lowerDiv">
+      <div className="footer__copy">
         <p>© Copyright. All rights reserved.</p>
       </div>
-    </div>
+    </footer>
   );
 };
 

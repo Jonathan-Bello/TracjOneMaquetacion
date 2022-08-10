@@ -1,0 +1,33 @@
+.button {
+  font-family: "HM Medium";
+  font-size: 1rem;
+  color: #f3f3f3;
+  padding: 0.8em 2.5rem;
+  border-radius: 3rem;
+  border: none;
+  background-color: #525fdf;
+
+  @include from(lg) {
+    font-size: 1.25rem;
+  }
+}
+
+.button--icon {
+  @extend .button;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  @include from(lg) {
+    img {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}
