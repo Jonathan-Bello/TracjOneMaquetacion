@@ -1,3 +1,7 @@
+.Home__relative {
+  position: relative;
+}
+
 .Home__firstSection {
   position: relative;
   z-index: 10;
@@ -129,8 +133,8 @@
 .Home__thirdSection__img {
   position: absolute;
   z-index: 5;
-  top: 140%;
-  right: 0rem;
+  top: 40%;
+  right: 0;
 }
 
 .Home__thirdSection__img img {

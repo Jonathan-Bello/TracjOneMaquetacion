@@ -35,53 +35,58 @@ const monika = () => {
           </div>
         </section>
 
-        <section className="Home__secondSection">
-          <div className="secondSectionPDiv">
-            <p>
-              When it comes to <span>security solutions</span>, choosing between{" "}
-              <span>
-                larger, established firms or smaller, more up-and-coming
-                startups and boutiques
-              </span>{" "}
-              is a decision that can leave you reeling.
-            </p>
-          </div>
-        </section>
-
-        <section className="Home__thirdSection">
-          <div className="ed-grid s-grid-1 lg-grid-2">
-            <div>
-              <div className="s-mb-4">
-                <div className="upperTitle">
-                  <h2>WE BELIEVE IN THE</h2>
-                </div>
-                <div className="lowerTitle">
-                  <h2>
-                    <span className="power">POWER</span> OF{" "}
-                    <span className="niche">NICHE.</span>
-                  </h2>
-                </div>
-              </div>
-              <div className="Home__thirdSection__text">
-                <p>
-                  Determined start-ups, and focused, boutique firms exist on the
-                  cutting-edge of new developments, innovations, and ideas.{" "}
-                  <span>These companies are built to go the extra mile.</span>{" "}
-                  To do whatever it takes for their clients. To build{" "}
-                  <span>lasting relationships</span> and{" "}
-                  <span>bring tailored, next-level support.</span> The world of
-                  security is vast, specialized, and wildly competitive. It can
-                  be difficult to navigate your way through all the options
-                  available to find the latest, greatest, and ultimately – right
-                  solution for your needs.
-                </p>
-              </div>
+        <div className="Home__relative">
+          <section className="Home__secondSection">
+            <div className="secondSectionPDiv">
+              <p>
+                When it comes to <span>security solutions</span>, choosing
+                between{" "}
+                <span>
+                  larger, established firms or smaller, more up-and-coming
+                  startups and boutiques
+                </span>{" "}
+                is a decision that can leave you reeling.
+              </p>
             </div>
-            <div></div>
+          </section>
+
+          <section className="Home__thirdSection">
+            <div className="ed-grid s-grid-1 lg-grid-2">
+              <div>
+                <div className="s-mb-4">
+                  <div className="upperTitle">
+                    <h2>WE BELIEVE IN THE</h2>
+                  </div>
+                  <div className="lowerTitle">
+                    <h2>
+                      <span className="power">POWER</span> OF{" "}
+                      <span className="niche">NICHE.</span>
+                    </h2>
+                  </div>
+                </div>
+                <div className="Home__thirdSection__text">
+                  <p>
+                    Determined start-ups, and focused, boutique firms exist on
+                    the cutting-edge of new developments, innovations, and
+                    ideas.{" "}
+                    <span>These companies are built to go the extra mile.</span>{" "}
+                    To do whatever it takes for their clients. To build{" "}
+                    <span>lasting relationships</span> and{" "}
+                    <span>bring tailored, next-level support.</span> The world
+                    of security is vast, specialized, and wildly competitive. It
+                    can be difficult to navigate your way through all the
+                    options available to find the latest, greatest, and
+                    ultimately – right solution for your needs.
+                  </p>
+                </div>
+              </div>
+              <div></div>
+            </div>
+          </section>
+
+          <div class="Home__thirdSection__img from-lg ">
+            <img src={Server} />
           </div>
-        </section>
-        <div class="Home__thirdSection__img from-lg ">
-          <img src={Server} />
         </div>
 
         <section className="Home__fourthSection">
