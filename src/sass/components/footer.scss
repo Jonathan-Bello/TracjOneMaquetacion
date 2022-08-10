@@ -19,8 +19,12 @@
 }
 
 .footer__buttonContainer {
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
+
+  @include from(m) {
+    width: 60%;
+  }
 }
 
 .footer h3 {

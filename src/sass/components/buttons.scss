@@ -1,6 +1,6 @@
 .button {
   font-family: "HM Medium";
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: #f3f3f3;
   padding: 0.8em 2.5rem;
   border-radius: 3rem;
@@ -8,7 +8,7 @@
   background-color: #525fdf;
 
   @include from(lg) {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 }
 
@@ -18,16 +18,18 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  padding: 0.8em 1rem;
+
 
   img {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.2rem;
+    height: 1.2rem;
   }
 
   @include from(lg) {
     img {
-      width: 2rem;
-      height: 2rem;
+      width: 1.5rem;
+      height: 1.5rem;
     }
   }
 }
